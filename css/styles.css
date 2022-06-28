@@ -1,0 +1,160 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+body{
+  font-family: Montserrat;
+}
+
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.navbaronly{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.image{
+  /* padding-left: 7rem; */
+  width: 20%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+  right: 20%;
+  /* height: 30rem; */
+}
+
+.but{
+  margin: 6% 2% 0 0;
+
+}
+
+#features{
+  padding: 7.5%;
+  padding-top: 100px;
+  font-family: ubuntu;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  /* margin: 6% 5%; */
+}
+
+.abc{
+   padding: 6%;
+}
+
+p{
+  color: grey;
+}
+
+.icon{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:  red;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+h2{
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.Imagedog{
+  width: 20%;
+  border-radius: 15%;
+  margin-top: 2rem;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.brands{
+  width: 20%;
+  padding-right: 3rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* .card-group{
+  padding: 4%;
+  margin: 3% 3%;
+} */
+
+#pricing{
+  padding: 4rem;
+  text-align: center;
+}
+
+.pricing{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .image{
+    position: static;
+    width: 100%;
+    padding-top: 4rem;
+    transform: rotate(0deg);
+  }
+
+  #title{
+    text-align:  center;
+  }
+}
+
+#cta{
+  width: 100%;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: white;
+}
+
+.last{
+  font-size: 3rem;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer{
+  padding-top: 10%;
+  text-align: center;
+}
+
+.log{
+  padding: 0% 1% 2% 1%;
+}
